@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="cata@localhost" uuid="46398a3c-5bf7-4f3c-b389-4e3d76e8fb4f">
+    <data-source source="LOCAL" name="customer@localhost" uuid="f263e8f4-aa9c-4e40-9155-b01d1773e132">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5332/cata</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5332/customer</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
