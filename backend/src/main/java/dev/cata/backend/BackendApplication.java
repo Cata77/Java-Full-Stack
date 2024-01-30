@@ -1,5 +1,6 @@
 package dev.cata.backend;
 
+import com.github.javafaker.Faker;
 import dev.cata.backend.customer.Customer;
 import dev.cata.backend.customer.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -9,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+import java.util.Random;
 
 @SpringBootApplication
 public class BackendApplication {
@@ -18,11 +21,21 @@ public class BackendApplication {
     }
     @Bean
     CommandLineRunner runner(CustomerRepository customerRepository) {
-        Customer alex = new Customer( "Alex", "alex@gmail.com", 21);
-        Customer jamila = new Customer("Jamila", "jamila@gmail.com", 19);
-        List<Customer> customers = List.of(alex, jamila);
-//        customerRepository.saveAll(customers);
-        return args -> {};
+        return args -> {
+            var faker = new Faker();
+            Random random = new Random();
+            var name = faker.name();
+
+            String firstName = name.firstName();
+            String lastName = name.lastName();
+            Customer customer = new Customer(
+                    firstName + " " + lastName,
+                    firstName.toLowerCase() + "." + lastName.toLowerCase() + "@gmail.com",
+                    random.nextInt(16, 99)
+            );
+
+            customerRepository.save(customer);
+        };
     }
 
 }
