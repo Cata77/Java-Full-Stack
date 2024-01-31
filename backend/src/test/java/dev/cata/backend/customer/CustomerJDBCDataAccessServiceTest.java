@@ -63,6 +63,13 @@ class CustomerJDBCDataAccessServiceTest extends AbstractTestcontainers {
     }
 
     @Test
+    void willReturnEmptyWhenSelectCustomerById() {
+        int id = -1;
+        var actual = underTest.selectCustomerById(id);
+        assertThat(actual).isEmpty();
+    }
+
+    @Test
     void insertCustomer() {
     }
 
