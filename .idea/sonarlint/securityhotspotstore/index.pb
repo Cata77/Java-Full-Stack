@@ -2815,3 +2815,9 @@ v
 Fbackend/src/main/java/dev/cata/backend/customer/CustomerRowMapper.java,d\9\d9d3f4351d77b8c5fbac52d57a45d27f85180c30
 n
 >backend/src/test/java/dev/cata/backend/TestContainersTest.java,6\9\69cb7a293e0a7fd518f0308c4c0fbb0b83a3f851
+|
+Lbackend/src/test/java/dev/cata/backend/AbstractTestccontainersUnitTtest.java,c\3\c32c50c629be24c41dd607e95f61b203298cfd11
+z
+Jbackend/src/test/java/dev/cata/backend/AbstractTestcontainersUnitTest.java,7\2\724577aa1fde6e4380bab638c9bbc82bb528830b
+r
+Bbackend/src/test/java/dev/cata/backend/AbstractTestcontainers.java,7\e\7e338432b40ccc24acda2e028a4f40773f126ef4
