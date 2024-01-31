@@ -2821,3 +2821,5 @@ z
 Jbackend/src/test/java/dev/cata/backend/AbstractTestcontainersUnitTest.java,7\2\724577aa1fde6e4380bab638c9bbc82bb528830b
 r
 Bbackend/src/test/java/dev/cata/backend/AbstractTestcontainers.java,7\e\7e338432b40ccc24acda2e028a4f40773f126ef4
+†
+Vbackend/src/test/java/dev/cata/backend/customer/CustomerJDBCDataAccessServiceTest.java,c\d\cded4096260da92f3da8e61fbf370718345a0cf2
