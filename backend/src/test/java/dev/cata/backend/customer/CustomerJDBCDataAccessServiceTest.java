@@ -14,7 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CustomerJDBCDataAccessServiceTest extends AbstractTestcontainers {
     private CustomerJDBCDataAccessService underTest;
-    private CustomerRowMapper customerRowMapper = new CustomerRowMapper();
+    private final CustomerRowMapper customerRowMapper = new CustomerRowMapper();
+
     @BeforeEach
     void setUp() {
         underTest = new CustomerJDBCDataAccessService(
@@ -97,11 +98,32 @@ class CustomerJDBCDataAccessServiceTest extends AbstractTestcontainers {
     }
 
     @Test
-    void existsPersonWithId() {
+    void existsCustomerWithId() {
+        String email = faker.internet().safeEmailAddress() + "-" + UUID.randomUUID();
+        String name = faker.name().fullName();
+        Customer customer = new Customer(
+                name,
+                email,
+                20
+        );
+        underTest.insertCustomer(customer);
+
+        int id = underTest.selectAllCustomers()
+                .stream()
+                .filter(c -> c.getEmail().equals(email))
+                .map(Customer::getId)
+                .findFirst()
+                .orElseThrow();
+
+        var actual = underTest.existsPersonWithId(id);
+        assertThat(actual).isTrue();
     }
 
     @Test
-    void deleteCustomerById() {
+    void existsCustomerWithIdWillReturnFalseWhenIdNotPresent() {
+        int id = -1;
+        var actual = underTest.existsPersonWithId(id);
+        assertThat(actual).isFalse();
     }
 
     @Test
