@@ -110,6 +110,6 @@ public class CustomerJDBCDataAccessService implements CustomerDao{
             int result = jdbcTemplate.update(sql, update.getEmail(), update.getId());
             System.out.println("update customer email result = " + result);
         }
-
     }
 }
+

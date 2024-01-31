@@ -18,8 +18,6 @@ B
 
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 
-Q.idea/sonarlint/securityhotspotstore/d/6/d6357cc619f8b8d226dcafe47517ff60b5234e56,4\b\4b3c1869eb83b72b3ed41ce40130cde6ea7bdd66
-
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 
 Q.idea/sonarlint/securityhotspotstore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a,c\d\cdb41fff691175c26b6b290b03da638b954ee337
@@ -31,8 +29,6 @@ w
 G.idea/sonarlint/issuestore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a,f\a\fa996fb25dd8afe6bf56a281bdff677f139b23bf
 ?
 backend/pom.xml,f\9\f9590cd73598b6f2427c8b1327d922c50d1dc504
-w
-G.idea/sonarlint/issuestore/5/e/5e4805de49b3e0799af661639276d994cb0e08ae,0\b\0bafecc5350071d269191d61db01cc3f5cbcc007
 w
 G.idea/sonarlint/issuestore/4/b/4b3c1869eb83b72b3ed41ce40130cde6ea7bdd66,4\9\4950029a1e4df8593e3b2c0ae02046e51db87f2d
 
@@ -57,8 +53,6 @@ w
 G.idea/sonarlint/issuestore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1,6\2\6248197ca7a44d8bc42b5bd6cd80cd6e99143261
 w
 G.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c,c\e\ce7799643a95553c6bee1d403d6cb738907a7f2c
-
-Q.idea/sonarlint/securityhotspotstore/5/e/5e4805de49b3e0799af661639276d994cb0e08ae,1\8\1875523abe782d2eab913a9a2e33fce5a3dc2cbb
 
 Q.idea/sonarlint/securityhotspotstore/4/b/4b3c1869eb83b72b3ed41ce40130cde6ea7bdd66,8\0\804d22d6a5d0c62b74355f938a8b2450840b8092
 
@@ -2819,3 +2813,5 @@ Q.idea/sonarlint/securityhotspotstore/d/5/d569b50fe191a0c20742ff51ff92d9296c4f0a
 Rbackend/src/main/java/dev/cata/backend/customer/CustomerJDBCDataAccessService.java,f\1\f1dbface0542523544fce9fb92d9f6a016537e87
 v
 Fbackend/src/main/java/dev/cata/backend/customer/CustomerRowMapper.java,d\9\d9d3f4351d77b8c5fbac52d57a45d27f85180c30
+n
+>backend/src/test/java/dev/cata/backend/TestContainersTest.java,6\9\69cb7a293e0a7fd518f0308c4c0fbb0b83a3f851
