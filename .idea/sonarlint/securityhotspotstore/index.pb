@@ -2811,3 +2811,5 @@ Vbackend/src/test/java/dev/cata/backend/customer/CustomerJDBCDataAccessServiceTe
 Kbackend/src/test/java/dev/cata/backend/customer/CustomerRepositoryTest.java,4\8\48bb6a9e931f111bfd34fd26bb8f983d171a76d3
 …
 Ubackend/src/test/java/dev/cata/backend/customer/CustomerJPADataAccessServiceTest.java,4\9\4908a0e2306abdc09d62780ab8edb0896b4ba9d4
+x
+Hbackend/src/test/java/dev/cata/backend/customer/CustomerServiceTest.java,2\a\2ab55c02962ae60f65c87c31793a33eec50790fb
