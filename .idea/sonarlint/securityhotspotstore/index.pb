@@ -2807,3 +2807,5 @@ r
 Bbackend/src/test/java/dev/cata/backend/AbstractTestcontainers.java,7\e\7e338432b40ccc24acda2e028a4f40773f126ef4
 †
 Vbackend/src/test/java/dev/cata/backend/customer/CustomerJDBCDataAccessServiceTest.java,c\d\cded4096260da92f3da8e61fbf370718345a0cf2
+{
+Kbackend/src/test/java/dev/cata/backend/customer/CustomerRepositoryTest.java,4\8\48bb6a9e931f111bfd34fd26bb8f983d171a76d3
