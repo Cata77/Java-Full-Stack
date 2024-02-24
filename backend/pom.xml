@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.cata</groupId>
-    <artifactId>cata-api</artifactId>
+    <artifactId>customer-management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>backend</name>
     <description>backend</description>
+
     <properties>
         <java.version>17</java.version>
     </properties>

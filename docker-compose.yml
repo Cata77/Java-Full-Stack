@@ -16,7 +16,7 @@ services:
 
   cata-api:
     container_name: cata-api
-    image: cata-api:spring-docker
+    image: catalin77/customer-management:v1.0
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/customer
     ports:

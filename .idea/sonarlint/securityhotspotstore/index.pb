@@ -2331,3 +2331,6 @@ Jbackend/src/test/java/dev/cata/backend/customer/CustomerRowMapperTest.java,b\1
 Kbackend/src/test/java/dev/cata/backend/journey/CustomerIntegrationTest.java,f\6\f608a7457d3e7e938d3fc8093d39b5e86d305898
 B
 backend/Dockerfile,1\2\1299d064ef40647d5147370c3665f2bb07ec76d8
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
