@@ -2331,6 +2331,7 @@ Jbackend/src/test/java/dev/cata/backend/customer/CustomerRowMapperTest.java,b\1
 Kbackend/src/test/java/dev/cata/backend/journey/CustomerIntegrationTest.java,f\6\f608a7457d3e7e938d3fc8093d39b5e86d305898
 B
 backend/Dockerfile,1\2\1299d064ef40647d5147370c3665f2bb07ec76d8
-:
-
-Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+B
+backend/.gitignore,7\e\7e16691a9fc60084a157565ec422c8094d3df67c
+P
+ .github/workflows/backend-ci.yml,4\a\4a71d8f4c9eca6b1270bc119e4822517451b02f9
