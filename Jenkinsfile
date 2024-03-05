@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                dir('backend') {
+                dir('./backend') {
                     sh 'mvn clean install'
                 }
             }
@@ -12,7 +12,7 @@ pipeline {
 
         stage('Unit Test') {
             steps {
-                dir('backend') {
+                dir('./backend') {
                     sh 'mvn test'
                 }
             }
@@ -20,8 +20,8 @@ pipeline {
 
         stage('Integration Test') {
             steps {
-                dir('backend') {
-                    sh 'mvn test'
+                dir('./backend') {
+                    sh 'mvn verify'
                 }
             }
         }
