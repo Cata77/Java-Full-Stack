@@ -4,26 +4,32 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                dir('backend') {
+                    sh 'mvn clean install'
+                }
             }
         }
 
         stage('Unit Test') {
             steps {
-                sh 'mvn test'
+                dir('backend') {
+                    sh 'mvn test'
+                }
             }
         }
 
         stage('Integration Test') {
             steps {
-                sh 'mvn test'
+                dir('backend') {
+                    sh 'mvn test'
+                }
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: 'target/*.jar'
+            archiveArtifacts artifacts: 'backend/target/*.jar'
         }
 
         success {
