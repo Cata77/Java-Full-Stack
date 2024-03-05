@@ -19,6 +19,7 @@ target/
 *.iml
 *.ipr
 **/*.iml
+.idea/sonarlint
 
 ### NetBeans ###
 /nbproject/private/

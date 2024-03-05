@@ -2335,3 +2335,5 @@ B
 backend/.gitignore,7\e\7e16691a9fc60084a157565ec422c8094d3df67c
 P
  .github/workflows/backend-ci.yml,4\a\4a71d8f4c9eca6b1270bc119e4822517451b02f9
+;
+Jenkinsfile,0\c\0c2c5c506cef0ed2d3ad2b7e45e97980b66f5520
