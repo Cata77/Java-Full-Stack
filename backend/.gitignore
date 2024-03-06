@@ -20,6 +20,8 @@ target/
 *.ipr
 **/*.iml
 .idea/sonarlint
+.sonar
+.idea/sonarlint/securityhotspotstore
 
 ### NetBeans ###
 /nbproject/private/
